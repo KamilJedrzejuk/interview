@@ -4,7 +4,8 @@
 
 
     /**
-     * Write a function that merge given three linked lists in the following way
+     * Write a function  merge(head1, head2, head3)
+     * that merge given three linked lists in the following way
      * @param head1 Head of first list
      * @param head2 Head of second list
      * @param head3 Head of third list
@@ -16,7 +17,7 @@
      *
      * [1] -> [A] -> [@] -> [2] -> [B] -> [$] -> [3] -> [C] -> [%]
      */
-     merge(head1, head2, head3)
+    
      
 class ListTransformation {
 
