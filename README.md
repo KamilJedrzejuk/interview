@@ -1,8 +1,10 @@
 # interview
 
-Write a function that merge given three linked lists in the following way
-     **
-     *
+```java
+
+
+    /**
+     * Write a function that merge given three linked lists in the following way
      * @param head1 Head of first list
      * @param head2 Head of second list
      * @param head3 Head of third list
@@ -16,7 +18,6 @@ Write a function that merge given three linked lists in the following way
      */
      merge(head1, head2, head3)
      
-```java
 class ListTransformation {
 
     //Like in C equivalent of struct Node { ...
