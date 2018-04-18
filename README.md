@@ -49,7 +49,7 @@ class ListTransformation {
      *
      * [1] -> [A] -> [@] -> [2] -> [B] -> [$] -> [3] -> [C] -> [%]
      */
-    Node transformList(Node head1, Node head2, Node head3) {
+    Node merge(Node head1, Node head2, Node head3) {
 
         Node p_curr1 = head1; Node p_curr2 = head2; Node p_curr3 = head3;
         Node p_next1 = null; Node p_next2 = null; Node p_next3 = null;
@@ -151,7 +151,7 @@ class ListTransformation {
         l.listPrinter(head2);
         l.listPrinter(head3);
 
-        Node head = l.transformList(head1, head2, head3);
+        Node head = l.merge(head1, head2, head3);
         l.listPrinter(head);
 
     }
